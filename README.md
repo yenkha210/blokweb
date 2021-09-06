@@ -16,14 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Sanne 't Hooft (vervangen door jouw naam)
+Yen Kha 
 
 #### Je startniveau:
-hier je startniveau (kies uit zwart, rood óf blauw)
+Blauw 
 
 #### Je focus:
-hier je focus (kies uit responsive óf surface plane)
- 
+Responsive
 </details>
 
 
@@ -37,13 +36,20 @@ hier je focus (kies uit responsive óf surface plane)
 
 ### Je opdracht:
 link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+https://www.lilysbubbletea.com/
+
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
+hier de naam van de pagina 
+![image](https://user-images.githubusercontent.com/90218478/132262665-ec229f89-290c-414d-a832-eabce9bb5e1b.png)
+
+
 <img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
+ ![image](https://user-images.githubusercontent.com/90218478/132262674-c60e066c-9eac-4770-9d36-5124c867b466.png)
+
 <img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
