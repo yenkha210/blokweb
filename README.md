@@ -22,11 +22,8 @@ Yen Kha
 Blauw 
 
 #### Je focus:
-Responsive
+Surface
 </details>
-
-
-
 
 
 ## Je website
