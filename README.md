@@ -42,7 +42,7 @@ https://www.lilysbubbletea.com/
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina 
 ![image](https://user-images.githubusercontent.com/90218478/132262739-36e93a0d-7c91-4722-a4c8-046c977b4c4d.png)
-![image](https://user-images.githubusercontent.com/90218478/132262762-0a2b64c3-d77b-4ef4-b361-3b30f429a4ab.png)
+![image](https://user-images.githubusercontent.com/90218478/132262959-90a2c721-bdcb-4a00-a5ce-27f5f60d6209.png)
 ![image](https://user-images.githubusercontent.com/90218478/132262780-dc3e1bab-8492-4788-963d-2a1ca9142163.png)
 
 
