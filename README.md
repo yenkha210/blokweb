@@ -41,16 +41,15 @@ https://www.lilysbubbletea.com/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina 
-![image](https://user-images.githubusercontent.com/90218478/132262665-ec229f89-290c-414d-a832-eabce9bb5e1b.png)
+![image](https://user-images.githubusercontent.com/90218478/132262739-36e93a0d-7c91-4722-a4c8-046c977b4c4d.png)
+![image](https://user-images.githubusercontent.com/90218478/132262762-0a2b64c3-d77b-4ef4-b361-3b30f429a4ab.png)
+![image](https://user-images.githubusercontent.com/90218478/132262780-dc3e1bab-8492-4788-963d-2a1ca9142163.png)
 
 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
- ![image](https://user-images.githubusercontent.com/90218478/132262674-c60e066c-9eac-4770-9d36-5124c867b466.png)
-
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+![image](https://user-images.githubusercontent.com/90218478/132262805-e7c3c83d-a158-43a3-a934-86fcd4905d85.png)
  
 </details>
 
