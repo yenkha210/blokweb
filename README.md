@@ -33,22 +33,24 @@ Surface plane
 
 ### Je opdracht:
 link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
-https://www.lilysbubbletea.com/
+https://www.yoyotea.nl/
 
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina
   
-![thumbnail_Image](https://user-images.githubusercontent.com/90218478/132361412-a854286a-b5cc-41a6-8d8b-7d0fc4b2eeba.jpg)
-![image](https://user-images.githubusercontent.com/90218478/132348641-5568548b-b2b3-4242-b57c-66a28beda223.png)
-![image](https://user-images.githubusercontent.com/90218478/132348684-3f04d2c6-ff63-4242-b74f-abc2073d3d96.png)
+![image](https://user-images.githubusercontent.com/90218478/132376109-d5fa4e6b-1cb4-489c-9be7-d8d3faa8096e.png)
+![image](https://user-images.githubusercontent.com/90218478/132376135-7f37a517-f485-49e1-9be1-5bc935dd591d.png)
+![image](https://user-images.githubusercontent.com/90218478/132376170-250f0a2e-29f9-483f-838d-5268c253cfa1.png)
+![image](https://user-images.githubusercontent.com/90218478/132376317-486ab55c-c2e2-4cf4-b8f6-e0324a946798.png)
+
+
 
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
   
-![image](https://user-images.githubusercontent.com/90218478/132348773-de8d4c62-f6ef-4cdd-a980-e61175534d7c.png)
-
+![image](https://user-images.githubusercontent.com/90218478/132376179-d0a7df86-6bf8-4018-83c5-75ee9d8d94a4.png)
 
 
 </details>
