@@ -47,7 +47,6 @@ hier de naam van de pagina
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
   
-![image](https://user-images.githubusercontent.com/90218478/132348751-ccbfbabf-4a3c-46c0-983a-a8741b2611b0.png)
 ![image](https://user-images.githubusercontent.com/90218478/132348773-de8d4c62-f6ef-4cdd-a980-e61175534d7c.png)
 ![image](https://user-images.githubusercontent.com/90218478/132348808-82f7c516-d78d-41c6-b461-09ed8992dc84.png)
 
