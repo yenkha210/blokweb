@@ -39,19 +39,18 @@ https://www.lilysbubbletea.com/
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina
   
-![thumbnail_Image (9)](https://user-images.githubusercontent.com/90218478/132347861-52f249b2-a7e3-44bd-aa4a-639b7a5aad66.jpg)
-![thumbnail_Image (1)](https://user-images.githubusercontent.com/90218478/132346439-a66feae6-17a1-42df-9688-e47dc716ff20.jpg)
-![thumbnail_Image (2)](https://user-images.githubusercontent.com/90218478/132346458-3d8db4ec-7136-4064-9418-799feb1b9c1f.jpg)
-
-
+![image](https://user-images.githubusercontent.com/90218478/132348626-b23b5bff-b02b-4592-b884-942c03a84e4e.png)
+![image](https://user-images.githubusercontent.com/90218478/132348641-5568548b-b2b3-4242-b57c-66a28beda223.png)
+![image](https://user-images.githubusercontent.com/90218478/132348684-3f04d2c6-ff63-4242-b74f-abc2073d3d96.png)
 
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
   
-![thumbnail_Image (4)](https://user-images.githubusercontent.com/90218478/132346540-9df53d44-a99a-419e-82ed-e02316e66fbf.jpg)
-![thumbnail_Image (5)](https://user-images.githubusercontent.com/90218478/132346561-7a0508fb-cd78-472d-8559-a61360c69440.jpg)
-![thumbnail_Image (6)](https://user-images.githubusercontent.com/90218478/132346597-e3c3c7c3-97bb-4d8e-bbab-97e0d3a4e7c8.jpg)
+![image](https://user-images.githubusercontent.com/90218478/132348751-ccbfbabf-4a3c-46c0-983a-a8741b2611b0.png)
+![image](https://user-images.githubusercontent.com/90218478/132348773-de8d4c62-f6ef-4cdd-a980-e61175534d7c.png)
+![image](https://user-images.githubusercontent.com/90218478/132348808-82f7c516-d78d-41c6-b461-09ed8992dc84.png)
+
 
 </details>
 
