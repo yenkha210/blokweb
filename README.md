@@ -48,7 +48,7 @@ hier de naam van de pagina
 hier de naam van de pagina  
   
 ![image](https://user-images.githubusercontent.com/90218478/132348773-de8d4c62-f6ef-4cdd-a980-e61175534d7c.png)
-![image](https://user-images.githubusercontent.com/90218478/132348808-82f7c516-d78d-41c6-b461-09ed8992dc84.png)
+
 
 
 </details>
