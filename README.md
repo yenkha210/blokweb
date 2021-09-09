@@ -22,7 +22,7 @@ Yen Kha
 Blauw 
 
 #### Je focus:
-Surface plane
+Responsive
 </details>
 
 
