@@ -73,18 +73,7 @@ hier de naam van de pagina
 <details>
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
-### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
-
-### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
-
-</details>
-
-
+https://www.figma.com/file/NeEBAJLnoU1H95xSBnn150/Untitled?node-id=0%3A1 
 
 
 
@@ -101,12 +90,11 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 samen met je groepje opstellen
 
 | Aniek | Salentino |  Yen  | Omar |
-| Aniek wilt weten hoe je het best een hamburger menu kunt maken.   
-| Yen is nog niet begonnen aan haar website
+  Aniek wilt weten hoe je het best een hamburger menu kunt maken.   
+  Yen is nog niet begonnen aan haar website
   Yen wilt weten hoe je een load more knop maakt.
   Meer weten over breakpoints.
-  Kun je details gebruiken voor het menu.
-  Of je van 1 kolom naar twee kolommen kan.
+  Aniek wilt weten of je details kunt gebruiken voor het menu en hoe je van 1 kolom naar twee kolommen kan.
 
 
 
