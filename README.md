@@ -33,16 +33,19 @@ Responsive
 
 ### Je opdracht:
 link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
-https://www.yoyotea.nl/
+https://www.mogetee.nl/
 
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina
   
-![image](https://user-images.githubusercontent.com/90218478/132376109-d5fa4e6b-1cb4-489c-9be7-d8d3faa8096e.png)
-![image](https://user-images.githubusercontent.com/90218478/132376135-7f37a517-f485-49e1-9be1-5bc935dd591d.png)
-![image](https://user-images.githubusercontent.com/90218478/132376170-250f0a2e-29f9-483f-838d-5268c253cfa1.png)
-![image](https://user-images.githubusercontent.com/90218478/132376317-486ab55c-c2e2-4cf4-b8f6-e0324a946798.png)
+![image](https://user-images.githubusercontent.com/90218478/133577983-ecaf37bc-a7cc-4828-a7e7-c1ea7798c1ba.png)
+![image](https://user-images.githubusercontent.com/90218478/133578017-41b2f27f-856b-410f-a80e-8c92cc730508.png)
+![image](https://user-images.githubusercontent.com/90218478/133578047-c5136d6f-89d4-4c8b-9477-180cf667f73f.png)
+![image](https://user-images.githubusercontent.com/90218478/133578066-6376f985-5d0d-4107-94e7-a2fd459fada0.png)
+![image](https://user-images.githubusercontent.com/90218478/133578096-16d70906-9ea9-4a72-8f99-f2108082ba0e.png)
+![image](https://user-images.githubusercontent.com/90218478/133578123-fe475ce8-f7dc-4257-af66-932dd817892a.png)
+![image](https://user-images.githubusercontent.com/90218478/133578152-33152e16-63b9-4cab-bb9d-9aff258936d2.png)
 
 
 
@@ -50,7 +53,13 @@ hier de naam van de pagina
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
   
-![image](https://user-images.githubusercontent.com/90218478/132376179-d0a7df86-6bf8-4018-83c5-75ee9d8d94a4.png)
+![image](https://user-images.githubusercontent.com/90218478/133578191-5cca67be-5b82-4b2d-8b53-254afc8aad22.png)
+![image](https://user-images.githubusercontent.com/90218478/133578220-4bd10308-ace4-4718-a9b3-0eba3a1b8371.png)
+![image](https://user-images.githubusercontent.com/90218478/133578248-85b18a1e-b4c4-4140-9303-6d661cb65af0.png)
+![image](https://user-images.githubusercontent.com/90218478/133578285-b66d4049-aea3-40f0-8401-411c4ed91747.png)
+![image](https://user-images.githubusercontent.com/90218478/133578309-f7c173e9-2aa3-4d42-9a68-419af50b4d76.png)
+![image](https://user-images.githubusercontent.com/90218478/133578333-d53afaf0-f922-4539-af93-feb49140e9ea.png)
+
 
 
 </details>
