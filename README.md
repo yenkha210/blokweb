@@ -37,7 +37,7 @@ https://www.mogetee.nl/
 
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina
+hier de naam van de pagina: home
   
 ![image](https://user-images.githubusercontent.com/90218478/133577983-ecaf37bc-a7cc-4828-a7e7-c1ea7798c1ba.png)
 ![image](https://user-images.githubusercontent.com/90218478/133578017-41b2f27f-856b-410f-a80e-8c92cc730508.png)
@@ -51,7 +51,7 @@ hier de naam van de pagina
 
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
+hier de naam van de pagina: about  
   
 ![image](https://user-images.githubusercontent.com/90218478/133578191-5cca67be-5b82-4b2d-8b53-254afc8aad22.png)
 ![image](https://user-images.githubusercontent.com/90218478/133578220-4bd10308-ace4-4718-a9b3-0eba3a1b8371.png)
@@ -86,10 +86,11 @@ https://www.figma.com/file/NeEBAJLnoU1H95xSBnn150/Untitled?node-id=0%3A1
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 
+
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| Aniek | Salentino |  Yen  | Omar |
+  | Aniek | Salentino |  Yen  | Omar |
   Aniek wilt weten hoe je het best een hamburger menu kunt maken.   
   Yen is nog niet begonnen aan haar website
   Yen wilt weten hoe je een load more knop maakt.
@@ -122,18 +123,17 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+| Aniek | Salentino |  Yen  | Omar |
+  
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-Hoe kun je meerdere kleuren als achtergrond? Per sectie zeg maar.
-Hoe kan ik mijn button minder breed maken?
+  
+Aniek: welke html elementen ik het beste kan gebruiken voor mn tweede pagina en of je iframes mag gebruiken.
+
+Yen: Hoe krijg je meerdere kleuren als achtergrond? Per sectie zeg maar.
+Hoe kan ik mijn button minder breed maken? antwoord = met margin auto
   
 
 </details>
@@ -191,20 +191,17 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Aniek | Salentino |  Yen  | Omar |
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Aniek: Hoe ik het van 1 naar 2 kolommen krijg en hoe ik een specifieke stijl kan krijgen bij een focus state.
+Yen: Ik wil weten hoe ik mijn hamburgericoon naar rechts krijg en hetzelfde als aniek.
+     En hoe ik een foto iets later kan laten verschijnen.
+     En meer info over accessibility.
+
 
 </details>
 
