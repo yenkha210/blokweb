@@ -43,7 +43,6 @@
   }
   
   
-  
   li{
     list-style: none;
   }
@@ -64,7 +63,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    width: 100%;
   }
   
   .hamburger{
@@ -120,12 +119,11 @@
     }
   
     .nav-item {
-        margin: 2.5rem 0;
+        margin: 2.1rem 0;
     }
     .hamburger {
         display: block;
         cursor: pointer;
-       
     }
   
     .hamburger.active .bar:nth-child(2) {
@@ -140,11 +138,39 @@
         transform: translateY(-8px) rotate(-45deg);    
     }
   }
-  
-  
+ /*
+  @media only screen and (min-width: 769px){
+    section:nth-of-type(1), section:nth-of-type(2),section:nth-of-type(3) {
+      display: flex;
+      padding:0 1em;
+      
+    }
+    section:nth-of-type(1)>img, section:nth-of-type(2)>img, section:nth-of-type(3)>img{
+      margin:0;
+    }
+    section:nth-of-type(5){
+      display:flex;
+      flex-direction: column;
+    }
+    section:nth-of-type(5)>img{
+      justify-self: center;
+      margin-left: 2em;
+      width: 100%;
+    }
+    
+  }
+  */
+
+
+
+
+
+
   
   h1{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 800;
     text-align: center;
     padding: 1em;
     color: #7e967b;
@@ -166,14 +192,13 @@
     padding: 0.5em;
   }
   
-  
   p{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-weight: lighter;
     padding: 0.5em;
-    
   }
+
   a{
     text-decoration: none;
     color: black;
@@ -188,7 +213,6 @@
     max-width: 12em;
   }
   
- 
   section:nth-of-type(1) {
     background-color:#fbf3e7;
     padding-bottom: 1em;
@@ -203,23 +227,93 @@
     background-color:#fbf3e7;
     padding-bottom: 1em;
   }
-  
-   
+ 
   .logo {
       max-width: 7em;
       max-height: 4em;  
     }
+  .illustratie2 {
+    max-width: 30%;
+    max-height: 30%;
+    margin-bottom: 5em;
+    margin-top: 3em;
+    margin-left: 16em;
+  }
   
-  
+  main section img {
+    max-width: 60%;
+    max-height: 60%;
+    margin-left: 5em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    animation-name: latenzien;
+    animation-duration: 2s;
+  }
+
+  @keyframes latenzien {
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+  }
+
+  footer {
+    background-color:white;
+    max-width: 100vh;
+     margin: 0 auto;
+     text-align: center;
+     padding-bottom: 2em;
+   }
+   
+   .fb{
+     max-width: 1.5em;
+     max-height: 1.5em;  
+     margin-right: 1em;
+     transition: 50ms ease;
+   }
+   
+   .ig{
+     max-width: 2em;
+     max-height: 2em;   
+   }
+   
+   
+   @media only screen and (min-width: 769px){
+    section:nth-of-type(1), section:nth-of-type(2),section:nth-of-type(3) {
+      display: flex;
+      padding:0 1em;
+      
+    }
+    section:nth-of-type(1)>img, section:nth-of-type(2)>img, section:nth-of-type(3)>img{
+      margin:0;
+    }
+    section:nth-of-type(5){
+      display:flex;
+      flex-direction: column;
+    }
+    section:nth-of-type(5)>img{
+      justify-self: center;
+      margin-left: 2em;
+      width: 100%;
+    }
+    
+  }
+
+
+
+/*
   .cirkel1 {
     max-width: 60%;
     max-height: 60%;
     margin-left: 5em;
     margin-top: 1em;
     margin-bottom: 0.5em;
-    
+    animation-name: latenzien;
+    animation-duration: 2s;
   }
-  
+
   .cirkel2 {
     max-width: 60%;
     max-height: 60%;
@@ -266,25 +360,5 @@
     margin-left: 5em;
     margin-top: 1em;
     margin-bottom: 0.5em;
-  }
-  
-  .illustratie2 {
-    max-width: 30%;
-    max-height: 30%;
-    margin-bottom: 5em;
-    margin-top: 3em;
-    margin-left: 16em;
-  }
-  
-  
-    /*.fb{
-    max-width: 1.5em;
-    max-height: 1.5em;  
-    padding-right: 0.5em;
-  }
-  
-  .insta{
-    max-width: 2em;
-    max-height: 2em;   
   }
   */
