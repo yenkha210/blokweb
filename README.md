@@ -84,7 +84,7 @@ https://www.figma.com/file/NeEBAJLnoU1H95xSBnn150/Untitled?node-id=0%3A1
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+De eerste paar lessen was ik nog niet bezig geweest met het coderen van mijn website. Ik deed eerst oefeningen op codepen om op gang te komen.
 
 
 ### Agenda voor meeting
@@ -94,16 +94,16 @@ samen met je groepje opstellen
   Aniek wilt weten hoe je het best een hamburger menu kunt maken.   
   Yen is nog niet begonnen aan haar website
   Yen wilt weten hoe je een load more knop maakt.
-  Meer weten over breakpoints.
-  Aniek wilt weten of je details kunt gebruiken voor het menu en hoe je van 1 kolom naar twee kolommen kan.
+  Iedereen wilt meer weten over breakpoints.
+  Aniek wilt weten of je details kunt gebruiken voor het menu en hoe het van 1 kolom naar twee kolommen kan.
 
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-Hoe je het best een hamburger menu kunt maken.
-Meer informatie over breakpoints.
+- Hoe je het best een hamburger menu kunt maken.
+- Meer informatie over breakpoints.
 
 </details>
 
@@ -118,7 +118,7 @@ Meer informatie over breakpoints.
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+I
 
 ### Agenda voor meeting
 samen met je groepje opstellen
@@ -134,6 +134,11 @@ Aniek: welke html elementen ik het beste kan gebruiken voor mn tweede pagina en 
 
 Yen: Hoe krijg je meerdere kleuren als achtergrond? Per sectie zeg maar.
 Hoe kan ik mijn button minder breed maken? antwoord = met margin auto
+Hoe kan ik de border om mijn navigatielink weghalen? antwoord = border: transparent;
+Hoe kan ik overige ruimte aan de zijkant weghalen? antwoord = overflow-x:hidden;
+Mijn video wilde niet afspelen. Oplossing = exporteren als mp4 met de app HandBrake
+
+Salentino had geen vragen maar was wel betrokken bij het gesprek.
   
 
 </details>
@@ -148,30 +153,34 @@ Hoe kan ik mijn button minder breed maken? antwoord = met margin auto
 <summary>uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
+Usability testing
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+Elastiek om de vingers | lichamelijke beperkingen
+  
+Typen met twee elastiekjes om je vingers gaat nog prima.
+Het typen duurt wel langer, maar vormt over het algemeen geen probleem. 
+Deze website is bedoeld om informatie te vinden en aanmelden voor sollicitatie. Dat is een klein formulier.
+Oplossingen: voorgestelde woorden wanneer je aan het typen bent.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Gele bril | kleurenblinden
+  
+Groene achtergrond valt bijna weg, voor de rest is het te doen.
+Oplossingen: buttons mogen een opvallende kleur of border hebben.
+  
+Suikerziekte bril
+  
+Gaat nog goed door de witte achtergrond en grote letters.
+Oplossingen: hogere contrast, grote letters & weinig tekst.
+  
+Twee zwarte stippen bril
+  
+Bijna niks kunnen lezen en de afbeeldingen zijn wazig.
+Oplossingen: hoger contrast, veel plaatjes & weinig tekst.
+  
+Ballon hooghouden tijdens het lezen
+  
+Dit is gewoon niet te doen, maar de letters op mijn website zijn wel groot genoeg dat je snel verder kunt lezen.
+Oplossingen: bij een formulier de titel boven in het invulveld plaatsen i.p.v. in het veld zelf, grotere knoppen en weinig tekst.
 
 </details>
 
@@ -192,16 +201,21 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 samen met je groepje opstellen
 
 | Aniek | Salentino |  Yen  | Omar |
-
-
-### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
+  
 Aniek: Hoe ik het van 1 naar 2 kolommen krijg en hoe ik een specifieke stijl kan krijgen bij een focus state.
 Yen: Ik wil weten hoe ik mijn hamburgericoon naar rechts krijg en hetzelfde als aniek.
      En hoe ik een foto iets later kan laten verschijnen.
      En meer info over accessibility.
 
+Salentino had geen vragen maar was wel betrokken bij het gesprek.
+
+### Verslag van meeting
+hier na afloop snel de uitkomsten van de meeting vastleggen
+
+Ik ben na de feebacksessie met de studentassistenten verder gekomen met mijn website.
+Ze legden uit hoe ik mijn hamburgermenu icoon kon verschuiven naar rechts en hielpen met wat transitie effecten.
+Ook legden ze uit hoe ik mijn website responsive kon krijgen. Ik wilde mijn content meer verspreiden en ze gaven als tip op
+de tekst en afbeelding te groeperen in een div.
 
 </details>
 
@@ -214,10 +228,28 @@ Yen: Ik wil weten hoe ik mijn hamburgericoon naar rechts krijg en hetzelfde als 
 <details>
 <summary>uitwerken voor eindgesprek</summary>
 
+De laatste week voor de deadline ging goed. Ik vond het lastig om mijn website responsive te krijgen dus heb ik hier en daar gevraagd wat ik kan doen om de teksten en foto's op de about pagina 
+
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 ### Screenshot(s)
+  ![image](https://user-images.githubusercontent.com/90218478/136500538-5d7a1eaa-3dee-42f9-ab04-54ac3fd3bd60.png)
+
+  
+  ![image](https://user-images.githubusercontent.com/90218478/136500350-6ebe3c82-6d28-401a-8842-c0f035a2c966.png)
+  ![image](https://user-images.githubusercontent.com/90218478/136500307-08c76864-414d-4459-8c5c-c06159b40a57.png)
+  ![image](https://user-images.githubusercontent.com/90218478/136500432-720e2636-9ac1-4043-aa09-a33c6f8f790b.png)
+
+  ![screen](https://user-images.githubusercontent.com/90218478/136499717-12a71ef3-5133-42e5-a650-23fa1e737e4f.PNG)
+  ![image](https://user-images.githubusercontent.com/90218478/136500150-804e91d5-1ae5-41d6-b832-52b02593bdbc.png)
+  ![image](https://user-images.githubusercontent.com/90218478/136500200-fd3cbb5e-ed02-4e10-8478-ec1a44c71f6a.png)
+  ![image](https://user-images.githubusercontent.com/90218478/136500095-e0d079c2-45a6-4e26-b0b7-4bf6df318d74.png)
+  ![image](https://user-images.githubusercontent.com/90218478/136500236-79fd5fe5-fcae-4d2e-ac0c-7158d980e8b5.png)
+  ![image](https://user-images.githubusercontent.com/90218478/136500279-883cbb9d-0427-4543-b4b0-ab3de414ebcf.png)
+
+
+
 
 hier screenshot(s) van je eindresultaat
 
