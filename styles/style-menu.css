@@ -1,0 +1,216 @@
+/* CSS Document */
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;  
+  }
+  
+  :root{
+    --h1-color:#bdd1bb;
+    --white:#ffff;
+    --black:#000000;
+    --hamburgermenu-color:#101010;
+    --nav-color:#f18819;
+    --box-shadow-color: #000005;
+    --header-color:#E2E8F0;
+    --background-nav-color: #fbf3e7;
+  }
+  html{
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body{
+    background-color: var(--white);
+  }
+  
+  header{
+    background-color: var(--white);
+    padding: 1.5em;
+    padding-bottom: 2em;
+    display:flex;
+    justify-content: center;
+   
+  }
+  
+  main {
+    max-width: 100vh;
+    margin: 0 auto;
+  }
+  
+  h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    padding: 1em;
+    color:var(--h1-color);
+  }
+
+  footer {
+    background-color:var(--white);
+    max-width: 100vh;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    
+   }
+  /*Opmaak buttons met een anker*/ 
+  a{
+    text-decoration: none;
+    color: var(--black);
+    border: solid var(--black);
+    border-radius: 1.2em;
+    padding: 0.7em;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    max-width: 12em;
+  }
+   
+  /*Vanaf hier opmaak navigatiebalk & hamburgermenu*/
+  ul a{
+    border:transparent;
+  }
+  
+  li{
+    list-style: none;
+  }
+  
+  li a:hover {
+    background-color: transparent;
+    color: var(--nav-color);
+  }
+  
+  .header{
+    border-bottom: 1px solid var(--header-color);
+  }
+  
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+  }
+  
+  .hamburger{
+    display: none;
+    justify-content: right;
+  }
+
+  /*Opmaak hamburger icoon*/
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--hamburgermenu-color);
+  }
+  
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+  
+  .nav-item {
+    margin-left: 4rem;
+  }
+  
+  .nav-link{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color:var(--black);
+  }
+
+  /*Opmaak navigatie opengeklapt*/
+  @media only screen and (max-width: 768px){
+    .nav-menu {
+        position: fixed;
+        left:-100%;
+        top: 0rem;
+        flex-direction: column;
+        background-color: var(--background-nav-color);
+        opacity: 90%;
+        width:100%;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px var(--box-shadow-color);
+    }
+  
+    .nav-menu.active {
+        left: 0;
+    }
+  
+    .nav-item {
+        margin: 2.1rem 0;
+    }
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+  
+    /*Hamburgermenu transitie van 3 strepen naar kruis*/
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);    
+    }
+  }
+  
+ 
+/*Menu img responive van groot naar klein scherm */
+  
+    @media only screen and (max-width: 769px){
+        section:nth-of-type(1)>img {
+            display: flex;
+            max-width: 100%;
+            max-height: 100%;  
+        }
+    }
+
+/*Menu img responsive van klein naar groot scherm*/
+    @media only screen and (min-width:769px){
+        section:nth-of-type(1)>img {
+            display: flex;
+            margin:0;
+            width: 100%;
+        }
+    }
+    
+/*Opmaak logo */ 
+.logo {
+  max-width: 7em;
+  max-height: 4em;  
+}
+
+/*Opmaak socialmedia iconen */
+.fb{
+  max-width: 1.7em;
+  max-height: 1.7em;  
+}
+  
+.ig{
+  max-width: 2em;
+  max-height: 2em;   
+}
+  
+  
+.social-media ul {
+  position: absolute;
+  display: flex;
+}
+
+.social-media ul li {
+  align-self: center;
+}

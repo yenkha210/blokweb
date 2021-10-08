@@ -4,39 +4,94 @@
   padding: 0;
   box-sizing:border-box;  
 }
-
-
-body{
-  background-color: white;
-}
-
-header{
-  background-color: white;
-  padding: 1.5em;
-  padding-bottom: 2em;
-  display:flex;
-  justify-content: center;
- 
-}
-/*
-nav{
-  max-height: 20%;
-  max-width: 100%;
-  background-color: white;
-  display: flex;
-  justify-content: space-between;
-  padding: 1em;
-}
-*/
-main {
-  max-width: 100vh;
-  margin: 0 auto;
+:root{
+  --hover-color:#7e967b;
+  --h2-color:#feddb3;
+  --white:#ffff;
+  --black:#000000;
+  --hamburgermenu-color:#101010;
+  --nav-color:#f18819;
+  --box-shadow-color: #000005;
+  --header-color:#E2E8F0;
+  --green-section:#e4efdc;
+  --papaya-section: #fbf3e7;
 }
 
 html{
   font-size: 100%;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+body{
+  background-color: var(--white);
+}
+
+header{
+  background-color: var(--white);
+  padding: 1.5em;
+  padding-bottom: 2em;
+  display:flex;
+  justify-content: center;
+}
+
+main {
+  max-width: 100vh;
+  margin: 0 auto;
+}
+
+/*Opmaak alle teksten (h1,h2 en p element*/
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 800;
+  padding: 1em;
+  color: var(--black);
+}
+
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:center;
+  font-size: 25px;
+  font-weight: 800;
+  color: var(--h2-color);
+  padding: 1em;
+}
+
+p{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-weight: lighter;
+  padding: 0.5em;
+}
+
+footer {
+  background-color:var(--white);
+  max-width: 100vh;
+  margin: 0 auto;
+  padding-bottom: 2em;
+ }
+
+/*Opmaak buttons met een anker*/
+a{
+  text-decoration: none;
+  color:var(--black);;
+  border: solid var(--black);
+  border-radius: 1.2em;
+  padding: 0.7em;
+  margin:auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  max-width: 12em;
+  transition: 0.5s;
+}
+a:hover {
+  color: var(--white);
+  background-color: var(--hover-color);
+}
+/*Vanaf hier opmaak navigatiebalk & hamburgermenu*/
 
 ul a{
   border:transparent;
@@ -48,13 +103,11 @@ li{
 
 li a:hover {
   background-color: transparent;
-  color: #f18819;
+  color: var(--nav-color);
 }
 
-
 .header{
-  border-bottom: 1px solid #E2E8F0;
-
+  border-bottom: 1px solid var(--header-color);
 }
 
 .navbar{
@@ -69,6 +122,7 @@ li a:hover {
   justify-content: right;
 }
 
+/*Opmaak hamburger icoon*/
 .bar {
   display: block;
   width: 25px;
@@ -76,14 +130,13 @@ li a:hover {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #101010;
+  background-color: var(--hamburgermenu-color);
 }
 
 .nav-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: -1em;
  }
 
 .nav-item {
@@ -93,22 +146,22 @@ li a:hover {
 .nav-link{
   font-size: 1.1rem;
   font-weight: 400;
-  color:black
+  color:var(--black);
 }
-
+/*Opmaak navigatie opengeklapt*/
 @media only screen and (max-width: 768px){
   .nav-menu {
       position: fixed;
       left:-100%;
       top: 0rem;
       flex-direction: column;
-      background-color: #fbf3e7;
+      background-color: var(--papaya-section);
       opacity: 90%;
       width:100%;
       text-align: center;
       transition: 0.3s;
       box-shadow:
-          0 10px 27px rgba(0, 0, 0, 0.05);
+          0 10px 27px var(--box-shadow-color);
   }
 
   .nav-menu.active {
@@ -121,8 +174,9 @@ li a:hover {
   .hamburger {
       display: block;
       cursor: pointer;
-     
   }
+
+  /*Hamburgermenu transitie van 3 strepen naar kruis*/
 
   .hamburger.active .bar:nth-child(2) {
       opacity: 0;
@@ -138,85 +192,33 @@ li a:hover {
 }
 
 
-h1{
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  font-size: 25px;
-  font-weight: 800;
-  padding: 1em;
-  color:black;
-}
-
-h2{
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  font-size: 25px;
-  font-weight: 800;
-  color: #feddb3;
-  padding: 1em;
-}
-
-h3 {
-  color: #bdd1bb;
-  font-size: 30px;
-  text-align: center;
-  font-family: sans-serif;
-  padding: 0.5em;
-}
-
-
-p{
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  text-align: center;
-  font-weight: lighter;
-  padding: 0.5em;
-  
-}
-a{
-  text-decoration: none;
-  color: black;
-  border: solid black;
-  border-radius: 1.2em;
-  padding: 0.7em;
-  margin:auto;
-  display: flex;
-  justify-content: center;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  max-width: 12em;
-}
-
-
-a:hover {
-  color: white;
-  background-color: #7e967b;
-  }
-
+/*Opmaak sections*/
   section:nth-of-type(1) {
-    background-color: #e4efdc;
+    background-color: var(--green-section);
     padding-bottom: 1em;
   }
   section:nth-of-type(2) {
-    background-color: white;
+    background-color:var(--white);
     padding-top: 1em;
   }
   section:nth-of-type(3) {
-    background-color: white;
+    background-color:var(--white);
   }
   section:nth-of-type(4) {
-    background-color:#fbf3e7;
+    background-color:var(--papaya-section);
     padding-bottom: 1em;
     padding-left: 2em;
     padding-right: 2em;
   }
- 
+  
+/*Opmaak logo*/
 .logo {
     max-width: 7em;
     max-height: 4em;  
   }
 
+/*Opmaak video*/
 .promovideo {
-  
   margin-top: 2em;
   margin-bottom: 1em;
   box-sizing: content-box;
@@ -226,6 +228,7 @@ a:hover {
   
 }
 
+/*Opmaak img*/
 .fotosectie1{
   margin: auto;
   display: flex;
@@ -245,24 +248,23 @@ a:hover {
   overflow-x: hidden;
 }
 
-
-footer {
- background-color:white;
- max-width: 100vh;
-  margin: 0 auto;
-  text-align: center;
-  padding-bottom: 2em;
-}
-
+/*Opmaak socialmedia iconen*/
 .fb{
-  max-width: 1.5em;
-  max-height: 1.5em;  
-  margin-right: 1em;
-  transition: 50ms ease;
+  max-width: 1.7em;
+  max-height: 1.7em;
 }
 
 .ig{
   max-width: 2em;
-  max-height: 2em;   
+  max-height: 2em; 
 }
 
+
+.social-media ul {
+  position: absolute;
+  display: flex;
+}
+
+.social-media ul li {
+  align-self: center;
+}

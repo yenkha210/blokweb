@@ -5,32 +5,17 @@
   box-sizing:border-box;  
   }
 
-  body{
-    background-color: white;
-  }
-  
-  header{
-    background-color: white;
-    padding: 1.5em;
-    padding-bottom: 2em;
-    display:flex;
-    justify-content: center;
-  }
-/*
-  nav{
-    max-height: 20%;
-    max-width: 100%;
-    background-color: white;
-    color: black;
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
-  }
-  */
-  
-  main {
-    max-width: 100vh;
-    margin: 0 auto;
+  :root{
+    --h1-color:#7e967b;
+    --h3-color:#bdd1bb;
+    --white:#ffff;
+    --black:#000000;
+    --hamburgermenu-color:#101010;
+    --nav-color:#f18819;
+    --box-shadow-color: #000005;
+    --header-color:#E2E8F0;
+    --green-section:#e4efdc;
+    --papaya-section: #fbf3e7;
   }
 
   html{
@@ -38,10 +23,96 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   
+  body{
+    background-color: var(--white);
+  }
+  
+  header{
+    background-color:var(--white);
+    padding: 1.5em;
+    padding-bottom: 2em;
+    display:flex;
+    justify-content: center;
+  }
+
+  main {
+    max-width: 100vh;
+    margin: 0 auto;
+  }
+
+/*Opmaak alle teksten (h1, h3 en p element*/
+  h1{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 25px;
+      font-weight: 800;
+      text-align: center;
+      padding: 1em;
+      color: var(--h1-color);
+    }
+    
+    h3 {
+      color: var(--h3-color);
+      font-size: 30px;
+      text-align: center;
+      font-family: sans-serif;
+      padding: 0.5em;
+    }
+    
+    p{
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+      font-weight: lighter;
+      padding: 0.5em;
+    }
+    /*Opmaak footer*/
+    footer {
+      background-color:var(--white);
+      max-width: 100vh;
+       margin: 0 auto;
+       text-align: center;
+       padding-bottom: 2em;
+     }
+
+  /*Opmaak buttons met een anker*/
+  a{
+    text-decoration: none;
+    color: var(--black);
+    border: solid var(--black);
+    border-radius: 1.2em;
+    padding: 0.7em;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    max-width: 12em;
+  }
+  
+  /*opmaak cirkelfoto's*/
+  main section img {
+    max-width: 60%;
+    max-height: 60%;
+    margin-left: 5em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    animation-name: latenzien;
+    animation-duration: 2s;
+  }
+  /*Met keyframes verschijnt de foto iets later op beeld*/
+  @keyframes latenzien {
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+  }
+
+
+  /*Vanaf hier opmaak navigatiebalk & hamburgermenu*/
   ul a{
     border:transparent;
   }
-  
   
   li{
     list-style: none;
@@ -49,13 +120,11 @@
   
   li a:hover {
     background-color: transparent;
-    color: #f18819;
+    color: var(--nav-color);
   }
   
-  
-  
   .header{
-    border-bottom: 1px solid #E2E8F0;
+    border-bottom: 1px solid var(--header-color);
   
   }
   
@@ -70,7 +139,8 @@
     display: none;
     justify-content: right;
   }
-  
+
+  /*Opmaak hamburger icoon*/
   .bar {
     display: block;
     width: 25px;
@@ -78,14 +148,13 @@
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #101010;
+    background-color: var(--hamburgermenu-color);
   }
   
   .nav-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: -1em;
    }
   
   .nav-item {
@@ -95,23 +164,24 @@
   .nav-link{
     font-size: 1.1rem;
     font-weight: 400;
-    color:black
+    color:var(--black);
   }
   
+  /*Opmaak navigatie opengeklapt*/
   @media only screen and (max-width: 768px){
     .nav-menu {
         position: fixed;
         left:-100%;
         top:0rem;
         flex-direction: column;
-        background-color: #fbf3e7;
+        background-color: var(--papaya-section);
         opacity: 90%;
         width:100%;
         border-radius: 10px;
         text-align: center;
         transition: 0.3s;
         box-shadow:
-            0 10px 27px rgba(0, 0, 0, 0.05);
+            0 10px 27px var(--box-shadow-color);
     }
   
     .nav-menu.active {
@@ -121,11 +191,14 @@
     .nav-item {
         margin: 2.1rem 0;
     }
+
     .hamburger {
         display: block;
         cursor: pointer;
     }
   
+
+    /*Hamburgermenu transitie van 3 strepen naar kruis*/
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
@@ -138,100 +211,77 @@
         transform: translateY(-8px) rotate(-45deg);    
     }
   }
- /*
-  @media only screen and (min-width: 769px){
-    section:nth-of-type(1), section:nth-of-type(2),section:nth-of-type(3) {
-      display: flex;
-      padding:0 1em;
-      
-    }
-    section:nth-of-type(1)>img, section:nth-of-type(2)>img, section:nth-of-type(3)>img{
-      margin:0;
-    }
-    section:nth-of-type(5){
-      display:flex;
-      flex-direction: column;
-    }
-    section:nth-of-type(5)>img{
-      justify-self: center;
-      margin-left: 2em;
-      width: 100%;
-    }
-    
-  }
-  */
-
-
-
-
-
-
-  
-  h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    font-weight: 800;
-    text-align: center;
-    padding: 1em;
-    color: #7e967b;
-  }
-  
-  h2{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color: #feddb3;
-    /*color: rgb(255, 204, 153); */
-    padding: 1em;
-  }
-  
-  h3 {
-    color: #bdd1bb;
-    font-size: 30px;
-    text-align: center;
-    font-family: sans-serif;
-    padding: 0.5em;
-  }
-  
-  p{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    font-weight: lighter;
-    padding: 0.5em;
-  }
-
-  a{
-    text-decoration: none;
-    color: black;
-    border: solid black;
-    border-radius: 1.2em;
-    padding: 0.7em;
-    margin:auto;
-    display: flex;
-    justify-content: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    max-width: 12em;
-  }
-  
+ 
+  /*Opmaak sections*/
   section:nth-of-type(1) {
-    background-color:#fbf3e7;
+    background-color:var(--papaya-section);
     padding-bottom: 1em;
   }
   
   section:nth-of-type(2) {
-    background-color: #e4efdc;
+    background-color: var(--green-section);
     padding-bottom: 1em;
   }
   
   section:nth-of-type(3) {
-    background-color:#fbf3e7;
+    background-color:var(--papaya-section);
     padding-bottom: 1em;
   }
- 
+
+ /*Opmaak logo*/
   .logo {
       max-width: 7em;
       max-height: 4em;  
     }
+
+   /*opmaak section 1,2 en 3 tekst responsive*/
+   @media only screen and (min-width: 769px){
+    section:nth-of-type(1), section:nth-of-type(2),section:nth-of-type(3) {
+      display: flex;
+      padding:0 1em;
+    }
+    
+    /*opmaak section 1,2 en 3 img responsive*/
+    section:nth-of-type(1)>img, section:nth-of-type(2)>img, section:nth-of-type(3)>img{
+      margin:0;
+      max-width: 50%;
+      max-height: 50%;
+      padding: 2em 2em 2em 2em;
+    }
+
+    /*opmaak section 5 img responsive*/
+    section:nth-of-type(5)>div>article>img{
+      display:flex;
+    }
+    section:nth-of-type(5)>div>article>img{
+    
+      margin:0 auto;
+      height:auto;
+      width:260px;
+    }
+  
+    section:nth-of-type(5)>div{
+      display:flex;
+      
+    }
+    section:nth-of-type(5) article{
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+    }
+    section:nth-of-type(4){
+      display:flex;
+      flex-direction: column;
+    }
+    .illustratie{
+      margin: 0;
+      align-self: center;
+      padding-top: 1em;
+    }
+  }
+   
+
+  /*opmaak img*/
   .illustratie2 {
     max-width: 30%;
     max-height: 30%;
@@ -240,125 +290,24 @@
     margin-left: 16em;
   }
   
-  main section img {
-    max-width: 60%;
-    max-height: 60%;
-    margin-left: 5em;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-    animation-name: latenzien;
-    animation-duration: 2s;
-  }
-
-  @keyframes latenzien {
-    from{
-      opacity: 0;
-    }
-    to{
-      opacity: 1;
-    }
-  }
-
-  footer {
-    background-color:white;
-    max-width: 100vh;
-     margin: 0 auto;
-     text-align: center;
-     padding-bottom: 2em;
-   }
-   
+  /*Opmaak socialmedia iconen*/
    .fb{
-     max-width: 1.5em;
-     max-height: 1.5em;  
-     margin-right: 1em;
-     transition: 50ms ease;
+     max-width: 1.7em;
+     max-height: 1.7em;  
    }
    
    .ig{
      max-width: 2em;
-     max-height: 2em;   
+     max-height: 2em;  
    }
    
-   
-   @media only screen and (min-width: 769px){
-    section:nth-of-type(1), section:nth-of-type(2),section:nth-of-type(3) {
-      display: flex;
-      padding:0 1em;
-      
-    }
-    section:nth-of-type(1)>img, section:nth-of-type(2)>img, section:nth-of-type(3)>img{
-      margin:0;
-    }
-    section:nth-of-type(5){
-      display:flex;
-      flex-direction: column;
-    }
-    section:nth-of-type(5)>img{
-      justify-self: center;
-      margin-left: 2em;
-      width: 100%;
-    }
-    
+  .social-media ul {
+    position: absolute;
+    display: flex;
+   }
+ 
+  .social-media ul li {
+    align-self: center;
   }
 
 
-
-/*
-  .cirkel1 {
-    max-width: 60%;
-    max-height: 60%;
-    margin-left: 5em;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-    animation-name: latenzien;
-    animation-duration: 2s;
-  }
-
-  .cirkel2 {
-    max-width: 60%;
-    max-height: 60%;
-    margin-left: 5em;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-   
-  }
-  
-  .cirkel3 {
-    max-width: 60%;
-    max-height: 60%;
-    margin-left: 5em;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-  }
-  .illustratie {
-    max-width: 70%;
-    max-height: 70%;
-    margin-left: 4em;
-    margin-top: 1em;
-    margin-bottom: 1.5em;
-  }
-  
-  .cirkel4 {
-    max-width: 60%;
-    max-height: 60%;
-    margin-left: 5em;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-  }
-  
-  .cirkel5 {
-    max-width: 60%;
-    max-height: 60%;
-    margin-left: 5em;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-  }
-  
-  .cirkel6 {
-    max-width: 60%;
-    max-height: 60%;
-    margin-left: 5em;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-  }
-  */
