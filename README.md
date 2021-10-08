@@ -228,30 +228,27 @@ de tekst en afbeelding te groeperen in een div.
 <details>
 <summary>uitwerken voor eindgesprek</summary>
 
-De laatste week voor de deadline ging goed. Ik vond het lastig om mijn website responsive te krijgen dus heb ik hier en daar gevraagd wat ik kan doen om de teksten en foto's op de about pagina 
+De laatste week voor de deadline ging goed. Ik vond het lastig om mijn website responsive te krijgen dus heb ik hier en daar gevraagd wat ik kan doen om de teksten en foto's op de about pagina naast elkaar te plaatsen zoals ik wil. 
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 ### Screenshot(s)
   ![image](https://user-images.githubusercontent.com/90218478/136500538-5d7a1eaa-3dee-42f9-ab04-54ac3fd3bd60.png)
-
+  ![screen](https://user-images.githubusercontent.com/90218478/136499717-12a71ef3-5133-42e5-a650-23fa1e737e4f.PNG)
   
-  ![image](https://user-images.githubusercontent.com/90218478/136500350-6ebe3c82-6d28-401a-8842-c0f035a2c966.png)
+ 
+
+hier screenshot(s) van je eindresultaat
+![image](https://user-images.githubusercontent.com/90218478/136500350-6ebe3c82-6d28-401a-8842-c0f035a2c966.png)
   ![image](https://user-images.githubusercontent.com/90218478/136500307-08c76864-414d-4459-8c5c-c06159b40a57.png)
   ![image](https://user-images.githubusercontent.com/90218478/136500432-720e2636-9ac1-4043-aa09-a33c6f8f790b.png)
 
-  ![screen](https://user-images.githubusercontent.com/90218478/136499717-12a71ef3-5133-42e5-a650-23fa1e737e4f.PNG)
   ![image](https://user-images.githubusercontent.com/90218478/136500150-804e91d5-1ae5-41d6-b832-52b02593bdbc.png)
   ![image](https://user-images.githubusercontent.com/90218478/136500200-fd3cbb5e-ed02-4e10-8478-ec1a44c71f6a.png)
   ![image](https://user-images.githubusercontent.com/90218478/136500095-e0d079c2-45a6-4e26-b0b7-4bf6df318d74.png)
   ![image](https://user-images.githubusercontent.com/90218478/136500236-79fd5fe5-fcae-4d2e-ac0c-7158d980e8b5.png)
   ![image](https://user-images.githubusercontent.com/90218478/136500279-883cbb9d-0427-4543-b4b0-ab3de414ebcf.png)
-
-
-
-
-hier screenshot(s) van je eindresultaat
 
 </details>
 
@@ -266,8 +263,7 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. Bron hamburger navigatie: https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci
+
 
 </details>
